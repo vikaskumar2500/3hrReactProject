@@ -1,0 +1,8 @@
+.tshirt-collection {
+  max-width: 76%;
+  background-color: rgb(121, 140, 156);
+  margin: 1rem auto;
+  border-radius: 15px;
+  /* border: 2px solid red; */
+  padding: 1rem 2rem;
+}

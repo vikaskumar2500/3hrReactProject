@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import "./App.css";
+import React, {Fragment} from "react";
+import AddTshirtForm from "./components/Form/AddTshirtForm";
+import Header from "./components/Layout/Header";
+import TshirtCollection from "./components/Layout/TshirtCollection";
+import CartList from "./components/Cart/CartList";
+const App = () => {
+  return <Fragment>
+    <Header/>
+    <AddTshirtForm/>
+    <TshirtCollection/>
+    <CartList/>
+  </Fragment>
+};
 
 export default App;

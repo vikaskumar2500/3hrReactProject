@@ -1,0 +1,26 @@
+.tshirt-item {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  /* border: 2px solid blue; */
+  border-radius: 15px;
+}
+
+.buy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 4rem; */
+  border-radius: 30px;
+  /* padding: 0.4rem 2rem; */
+  border: none;
+  height: 2rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

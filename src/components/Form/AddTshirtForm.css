@@ -1,0 +1,10 @@
+.form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+  background-color: rgb(121, 140, 156);
+  max-width: 80%;
+  border-radius: 15px;
+  margin: 2rem auto;
+}
